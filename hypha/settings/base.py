@@ -105,6 +105,7 @@ INSTALLED_APPS = [
     'hypha.reset_network.reset_network_home',
     'hypha.reset_network.reset_network_menus',
     'hypha.reset_network.reset_network_open_calls',
+    'hypha.reset_network.reset_network_partner',
     'hypha.reset_network.reset_network_people',
     'hypha.reset_network.reset_network_person',
     'hypha.reset_network.reset_network_resources',

@@ -64,6 +64,7 @@ class ResetNetworkHomePage(ResetNetworkBasePage):
         'reset_network_about.ResetNetworkAboutPage',
         'reset_network_open_calls.ResetNetworkOpenCallsPage',
         'reset_network_people.ResetNetworkPeoplePage',
+        'reset_network_partner.ResetNetworkPartnersPage',
         'reset_network_resources.ResetNetworkResourcesPage',
         'reset_network_work.ResetNetworkWorkPage',
         'reset_network_basic_page.ResetNetworkBasicPage',

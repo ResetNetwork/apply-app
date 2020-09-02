@@ -1,0 +1,28 @@
+{% extends "reset_network/base.html" %}
+
+{% load wagtailimages_tags %}
+{% load wagtailcore_tags %}
+
+{% block body_class %}base-light{% endblock %}
+
+{% block content %}
+
+<section class="para para--lead theme-darkest" data-section-theme="dark">
+    <div class="para__wrap contain reveal">
+      <div class="para__content">
+        <div class="para__title">
+          <h1>{{ page.name }}</h1>
+        </div>
+        <div class="para__body">
+          {{ page.status }}
+          {{ page.type }}
+          {{ page.intro }}
+          {{ page.description|richtext }}
+          {{ page.web_url }}
+          {{ page.logo_url }}
+        </div>
+      </div>
+    </div>
+</section>
+
+{% endblock %}
